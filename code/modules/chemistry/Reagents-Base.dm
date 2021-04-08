@@ -969,6 +969,8 @@ datum
 			
 			on_mob_life(var/mob/M, var/mult = 1)
 				if(!M) M = holder.my_atom
+				if (isliving(M))
+					var/mob/living/H = M
 				M.take_toxin_damage(20*mult) // buffin this because fluorine is horrible - adding a burn effect
 				M.TakeDamage("head", 0, 2*mult, 0, DAMAGE_BURN)
 				..()
