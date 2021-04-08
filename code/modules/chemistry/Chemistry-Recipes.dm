@@ -4068,3 +4068,11 @@ datum
 			mix_phrase = "The mixture comes together slowly. It doesn't seem like it wants to be here."
 			required_reagents = list("poor_cement" = 1, "silicon_dioxide" = 5, "water" = 1)
 			result_amount = 7
+			
+		water_holy
+			name = "Gay Water"
+			id = "water_gay"
+			result = "water_gay"
+			required_reagents = list("water" = 1, "silver" = 1)
+			result_amount = 2
+			mix_phrase = "The water starts to smell kinda gay, better throw it away."
