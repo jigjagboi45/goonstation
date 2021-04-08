@@ -4074,13 +4074,23 @@ datum
 			id = "water_gay"
 			result = "water_gay"
 			required_reagents = list("water" = 1, "silver" = 1)
-			result_amount = 2
+			result_amount = 3
 			mix_phrase = "The water starts to smell kinda gay, better throw it away."
 			
 		lgbtgoo
 			name = "LGBT Piss"
 			id = "piss_lgbt"
 			result = "piss_lgbt"
-			required_reagents = list("water_gay" = 1, "silver" = 1)
+			required_reagents = list("water_gay" = 1, "rainbow" = 1)
 			result_amount = 3
 			mix_phrase = "What have you done you sick bastard, do you feel ok?"
+			mix_sound = 'sound/voice/heavenly.ogg'
+			
+		rainbow
+			name = "Rainbow water"
+			id = "piss_lgbt"
+			result = "piss_lgbt"
+			required_reagents = list("water" = 1, "mercury" = 1, "plasma" = 1)
+			result_amount = 3
+			mix_phrase = "The beaker emits a funky beat"
+			
