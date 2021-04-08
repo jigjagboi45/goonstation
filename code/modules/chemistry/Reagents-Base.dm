@@ -974,14 +974,14 @@ datum
 				return
 			
 		rainbow
-		  name = "Rainbow"
+			name = "Rainbow"
 			id = "rainbow"
 			description = "This liquid shines of all the existent colors you can imagine. seems harmless"
 			reagent_state = SOLID
 			fluid_r = 188
 			fluid_g = 255
 			fluid_b = 0
-			transparency = 150
+			transparency = 170
 			penetrates_skin = 1
 			touch_modifier = 0.2
 			depletion_rate = 0
