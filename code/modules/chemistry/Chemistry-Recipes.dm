@@ -4076,3 +4076,11 @@ datum
 			required_reagents = list("water" = 1, "silver" = 1)
 			result_amount = 2
 			mix_phrase = "The water starts to smell kinda gay, better throw it away."
+			
+		lgbtgoo
+			name = "LGBT Piss"
+			id = "piss_lgbt"
+			result = "piss_lgbt"
+			required_reagents = list("water_gay" = 1, "silver" = 1)
+			result_amount = 3
+			mix_phrase = "What have you done you sick bastard, do you feel ok?"
