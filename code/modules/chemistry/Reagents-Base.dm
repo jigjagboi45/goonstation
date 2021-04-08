@@ -935,3 +935,42 @@ datum
 			fluid_b = 180
 			transparency = 35
 			value = 5 // 3c + 1c + 1c
+			
+		water_gay
+			name = "Gay Water"
+			id = "water_gay"
+			description = "It smells of gay, and has a slightly colorful visual"
+			reagent_state = LIQUID
+			fluid_r = 241
+			fluid_g = 111
+			fluid_b = 255
+			transparency = 170
+			penetrates_skin = 1
+			touch_modifier = 0.2
+			depletion_rate = 0
+			
+		lgbtgoo
+			name = "LGBT Piss"
+			id = "piss_lgbt"
+			description = "This is the pure LGBT extract, it smells funny and you should not drink it, do not drink it. bitch."
+			reagent_state = LIQUID
+			fluid_r = 230
+			fluid_g = 0
+			fluid_b = 255
+			transparency = 150
+			penetrates_skin = 1
+			touch_modifier = 0.2
+			depletion_rate = 0
+			
+		rainbow
+		  name = "Rainbow"
+			id = "rainbow"
+			description = "This liquid shines of all the existent colors you can imagine. seems harmless"
+			reagent_state = SOLID
+			fluid_r = 188
+			fluid_g = 255
+			fluid_b = 0
+			transparency = 150
+			penetrates_skin = 1
+			touch_modifier = 0.2
+			depletion_rate = 0
