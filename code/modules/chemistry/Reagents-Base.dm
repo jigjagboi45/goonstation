@@ -961,6 +961,14 @@ datum
 			penetrates_skin = 1
 			touch_modifier = 0.2
 			depletion_rate = 0
+			t.visible_message("This person actually drank it, he drank it and now hes Gay, wow, dont get close to him")
+			
+			on_mob_life(var/mob/M, var/mult = 1)
+				if(!M) M = holder.my_atom
+				M.take_toxin_damage(20*mult) // buffin this because fluorine is horrible - adding a burn effect
+				M.TakeDamage("head", 0, 2*mult, 0, DAMAGE_BURN)
+				..()
+				return
 			
 		rainbow
 		  name = "Rainbow"
