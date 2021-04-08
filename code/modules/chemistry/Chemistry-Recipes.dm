@@ -4069,7 +4069,7 @@ datum
 			required_reagents = list("poor_cement" = 1, "silicon_dioxide" = 5, "water" = 1)
 			result_amount = 7
 			
-		water_holy
+		water_gay
 			name = "Gay Water"
 			id = "water_gay"
 			result = "water_gay"
