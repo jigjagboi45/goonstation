@@ -962,6 +962,7 @@ datum
 			touch_modifier = 0.2
 			depletion_rate = 0
 			on_add()
+				if(!M) M = holder.my_atom
 				if (holder && ismob(holder.my_atom))
 				H.visible_message("<span class='alert'>[H] He drank it! He drank it and now hes gay! wow.. he should be ashamed of \himself.</span>")	
 				return
