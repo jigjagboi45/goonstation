@@ -963,17 +963,13 @@ datum
 			depletion_rate = 0
 			on_mob_life(var/mob/M, var/mult = 1)
 				if(!M) M = holder.my_atom
-				if (isliving(M))
-					var/mob/living/H = M
 				M.take_toxin_damage(20*mult) // buffin this because fluorine is horrible - adding a burn effect
 				M.TakeDamage("head", 0, 2*mult, 0, DAMAGE_BURN)
 				..()
 				return
 				
 			on_add()
-				if(!M) M = holder.my_atom
-				if (holder && ismob(holder.my_atom))
-				H.visible_message("<span class='alert'>[H] He drank it! He drank it and now hes gay! wow.. he should be ashamed of \himself.</span>")	
+				t.visible_message("He drank it! He drank it and now hes gay! wow.. he should be ashamed of himself.")
 				return
 				
 		rainbow
