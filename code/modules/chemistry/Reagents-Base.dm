@@ -961,7 +961,10 @@ datum
 			penetrates_skin = 1
 			touch_modifier = 0.2
 			depletion_rate = 0
-			t.visible_message("This person actually drank it, he drank it and now hes Gay, wow, dont get close to him")
+			on_add()
+				if (holder && ismob(holder.my_atom))
+				H.visible_message("<span class='alert'>[H] He drank it! He drank it and now hes gay! wow.. he should be ashamed of \himself.</span>")	
+				return
 			
 			on_mob_life(var/mob/M, var/mult = 1)
 				if(!M) M = holder.my_atom
