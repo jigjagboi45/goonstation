@@ -4088,8 +4088,8 @@ datum
 			
 		rainbow
 			name = "Rainbow water"
-			id = "piss_lgbt"
-			result = "piss_lgbt"
+			id = "rainbow"
+			result = "rainbow"
 			required_reagents = list("water" = 1, "mercury" = 1, "plasma" = 1)
 			result_amount = 3
 			mix_phrase = "The beaker emits a funky beat"
