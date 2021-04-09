@@ -49,7 +49,7 @@
 										"chromium","copper","ethanol","fluorine","hydrogen", \
 										"iodine","iron","lithium","magnesium","mercury","nickel", \
 										"nitrogen","oxygen","plasma","platinum","phosphorus","potassium", \
-										"radium","silicon","silver","sodium","sulfur","sugar","water","water_gay")
+										"radium","silicon","silver","sodium","sulfur","sugar","water")
 	var/glass_path = /obj/item/reagent_containers/glass
 	var/glass_name = "beaker"
 	var/dispenser_name = "Chemical"
