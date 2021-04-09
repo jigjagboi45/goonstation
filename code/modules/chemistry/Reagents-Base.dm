@@ -962,7 +962,7 @@ datum
 			touch_modifier = 0.2
 			depletion_rate = 0
 			
-			on_add()
+			on_add(var/mob/M)
 				if(!M) M = holder.my_atom
 				M.visible_message("He drank it! He drank it and now hes gay! wow.. he should be ashamed of himself.")
 				return
